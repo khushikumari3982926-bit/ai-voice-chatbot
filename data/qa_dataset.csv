@@ -1,0 +1,7 @@
+
+question,answer
+"What is Python?","Python is a general-purpose programming language."
+"What is FastAPI?","FastAPI is a Python framework for building APIs."
+"What is machine learning?","Machine learning helps computers learn patterns from data."
+"What is an API?","An API allows software applications to communicate with each other."
+"What is RAG?","Retrieval-Augmented Generation retrieves relevant information to help an AI answer a question."

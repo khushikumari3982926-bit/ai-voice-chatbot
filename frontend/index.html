@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Voice Chatbox</title>
+
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <div class="chat-container">
+        <header>
+            <div class="avatar">AI</div>
+            <div>
+                <h1>My AI Assistant</h1>
+                <p>Ask questions from my knowledge dataset</p>
+            </div>
+        </header>
+
+        <main id="messages" aria-live="polite">
+            <div class="message bot">
+                Hello! Ask me a question about my knowledge dataset.
+            </div>
+        </main>
+
+        <div id="status" role="status"></div>
+
+        <form id="chat-form">
+            <input
+                type="text"
+                id="question"
+                placeholder="Type your question..."
+                maxlength="1000"
+                autocomplete="off"
+                required
+            >
+
+            <button type="submit" id="send-button">
+                Send
+            </button>
+        </form>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
